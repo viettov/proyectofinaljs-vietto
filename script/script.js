@@ -1,7 +1,7 @@
 
 const contenedorOfertas = document.getElementById('contenedor-ofertas')
 
-fetch('../json/data.json')
+fetch('./data.json')
     .then ( (resp) => resp.json())
     .then( (data) => {
 
