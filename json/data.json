@@ -1,5 +1,0 @@
-[
-    {"id": 0, "destino": "Florianópolis", "alojamiento": "Hotel Porto Sol", "dias": 8, "desayuno": "Incluye desayuno", "precio": 95000, "imagen": "../assets/img/viaje-0.webp"},
-    {"id": 1, "destino": "Bariloche", "alojamiento": "Hotel Panamericano", "dias": 7, "desayuno": "Incluye desayuno", "precio": 48000, "imagen": "../assets/img/viaje-1.webp"}, 
-    {"id": 2, "destino": "Salta", "alojamiento": "Hotel Posada del Sol", "dias": 7, "desayuno": "No incluye desayuno", "precio": 38000, "imagen": "../assets/img/viaje-2.webp"}
-]
