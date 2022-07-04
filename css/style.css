@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:  'Lexend Deca', sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(120deg, rgba(224, 195, 252, 0.603) 0%, rgba(142, 197, 252, 0.596) 100%), url(../assets/img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 650px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #6789837c;
+    width: 100%;
+    height: 6.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 10px 30px ;
+    overflow: hidden;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.textos__hero {
+    height: 500px;
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textos__hero h1 {
+    font-size: 7.5rem;
+    text-align: center;
+}
+
+.textos__hero h2 {
+    font-size: 3rem;
+}
+
+.textos__hero a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    background-color: #22587ea6;
+    border-radius: 8px;
+    margin: 15px;
+    font-size: 1.3rem;
+}
+
+main {
+    background-color: #F5EEDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-title {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.viaje-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 30%;
+}
+
+.viaje-title {
+    font-size: 2.5rem;
+    padding:0.5rem
+}
+
+.info-btn {
+    background-color: #F5EEDC;
+    border: none;
+    padding-top: 5px;
+}
+
+.img-btn {
+    height: 7rem;
+}
+
+.info-completa {
+    font-size: 2rem;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 3rem;
+    color: #22577E;
+    text-shadow: 2px 2px 2px black;
+}
+
+.comprar-btn {
+    background-color: white;
+    font-family:   'Lexend Deca', sans-serif;
+    padding: 5px 40px;
+    font-size: 2rem;
+    border: 1px solid #22577E;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.link-acceso {
+    font-size: 1.7rem;
+    color: #22577E;
+    text-align: center;
+    padding: 3.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6789837c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 3rem;
+    color:#22577E;
+}
+
+.redes-icon {
+    height: 7rem;
+    padding: 10px 15px;
+}
+
+/* REGISTRO */
+form {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-separados {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ir-arriba {
+    display: flex;
+    justify-content: center;
+}
+
+#ir-arriba {
+    background-color:#F5EEDC;
+    border: none;
+}
+
+#contenedor-viajes, #contenedor-ofertas, #contenedor-carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    #contenedor-viajes {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}

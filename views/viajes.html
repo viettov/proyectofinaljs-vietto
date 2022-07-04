@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Disponibles - Puerta al Sur</title>
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- STYLE -->
+        <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="./viajes.html">Mis viajes</a>
+            <a href="./registro.html">Acceso</a>
+        </nav>
+        <div class="container">
+            <div class="textos__hero">
+                <h1>PUERTA AL SUR</h1>
+                <h2>Agencia de viajes y turismo</h2>
+                <a href="./viajes.html" class="boton">VIAJES DISPONIBLES</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h3 class="section-title">NUESTRAS OFERTAS PARA JULIO</h3>
+        </div>
+        <div id="contenedor-viajes">
+
+        </div>
+        <div>
+            <h3 class="section-title">VIAJES SELECCIONADOS</h3>
+        </div>
+        <div id="contenedor-carrito">
+
+        </div>
+        <div class="ir-arriba">
+            <button id="ir-arriba">
+                <img src="https://icongr.am/fontawesome/angle-double-up.svg?size=128&color=5584ac" alt="">
+            </button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <h3>PUERTA AL SUR</h3>
+        </div>
+        <div class="footer-redes">
+            <a href="www.facebook.com"><img src="https://icongr.am/fontawesome/facebook.svg?size=128&color=22577e" class="redes-icon" alt="facebook"></a>
+            <a href="www.instagram.com"><img src="https://icongr.am/fontawesome/instagram.svg?size=128&color=22577e" class="redes-icon" alt="instagram"></a>
+            <a href="www.twitter.com"><img src="https://icongr.am/fontawesome/twitter.svg?size=128&color=22577e" class="redes-icon" alt="twitter"></a>
+        </div>
+    </footer>
+    <script src="../script/script2.js"></script>
+    <script src="https://tholman.com/elevator.js/elevator.js"></script>
+    <script>
+            window.onload = () => {
+                const elevator = new Elevator({
+                    element : document.querySelector("#ir-arriba"),
+                    targetElement: document.querySelector('.section-title'),
+                    verticalPadding: 100,
+                })
+            }
+    </script>
+</body>
+</html>
