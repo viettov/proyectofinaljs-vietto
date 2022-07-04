@@ -10,7 +10,6 @@ fetch('./data.json')
             div.classList.add('viaje-card')
             div.innerHTML = `
             <h3 class="viaje-title">${producto.destino}</h3>
-            <img class="img-viaje" src=${producto.imagen} alt="">
             <div class="info-completa">
                 <p>${producto.alojamiento}</p>
                 <p>${producto.dias} días</p>
